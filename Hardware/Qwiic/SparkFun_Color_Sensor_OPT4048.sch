@@ -25451,8 +25451,8 @@ LED.</text>
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="SCL"/>
-<wire x1="73.66" y1="127" x2="71.12" y2="127" width="0.127" layer="91"/>
-<label x="73.66" y="127" size="1.27" layer="95" font="vector" xref="yes"/>
+<wire x1="76.2" y1="127" x2="71.12" y2="127" width="0.127" layer="91"/>
+<label x="76.2" y="127" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
 <net name="SDA" class="0">
@@ -25479,8 +25479,8 @@ LED.</text>
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="SDA"/>
-<wire x1="73.66" y1="129.54" x2="71.12" y2="129.54" width="0.127" layer="91"/>
-<label x="73.66" y="129.54" size="1.27" layer="95" font="vector" xref="yes"/>
+<wire x1="76.2" y1="129.54" x2="71.12" y2="129.54" width="0.127" layer="91"/>
+<label x="76.2" y="129.54" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
 <net name="INT" class="0">
@@ -25488,6 +25488,15 @@ LED.</text>
 <wire x1="45.72" y1="55.88" x2="50.8" y2="55.88" width="0.1524" layer="91"/>
 <label x="50.8" y="55.88" size="1.27" layer="95" font="vector" xref="yes"/>
 <pinref part="JP1" gate="J1" pin="2"/>
+</segment>
+<segment>
+<pinref part="U1" gate="G$1" pin="INT"/>
+<wire x1="73.66" y1="137.16" x2="71.12" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="139.7" x2="73.66" y2="137.16" width="0.1524" layer="91"/>
+<pinref part="R3" gate="G$1" pin="1"/>
+<label x="76.2" y="137.16" size="1.27" layer="95" font="vector" xref="yes"/>
+<wire x1="73.66" y1="137.16" x2="76.2" y2="137.16" width="0.1524" layer="91"/>
+<junction x="73.66" y="137.16"/>
 </segment>
 </net>
 <net name="3.3V" class="0">
@@ -25577,21 +25586,13 @@ LED.</text>
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="ADDR"/>
-<wire x1="73.66" y1="134.62" x2="71.12" y2="134.62" width="0.1524" layer="91"/>
-<label x="73.66" y="134.62" size="1.27" layer="95" font="vector" xref="yes"/>
+<wire x1="76.2" y1="134.62" x2="71.12" y2="134.62" width="0.1524" layer="91"/>
+<label x="76.2" y="134.62" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 <segment>
 <pinref part="ADDR" gate="G$1" pin="2"/>
 <wire x1="154.94" y1="101.6" x2="157.48" y2="101.6" width="0.1524" layer="91"/>
 <label x="154.94" y="101.6" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="N$1" class="0">
-<segment>
-<pinref part="U1" gate="G$1" pin="INT"/>
-<wire x1="73.66" y1="137.16" x2="71.12" y2="137.16" width="0.1524" layer="91"/>
-<wire x1="73.66" y1="139.7" x2="73.66" y2="137.16" width="0.1524" layer="91"/>
-<pinref part="R3" gate="G$1" pin="1"/>
 </segment>
 </net>
 </nets>
