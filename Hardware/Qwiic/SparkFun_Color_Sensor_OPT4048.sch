@@ -16717,6 +16717,34 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </package>
 <package name="BLANK">
 </package>
+<package name="ORDERING_INSTRUCTIONS">
+<description>&lt;h3&gt;Special Ordering Instructions Alert&lt;/h3&gt;
+&lt;p&gt;Indicates that the PCB material, colors, copper weights, and/or thickness are non-standard.&lt;/p&gt;
+&lt;p&gt;(Standard is 1.6mm FR4, 1 oz copper, immersion silver plating, red soldermask, white silkscreen.)&lt;/p&gt;
+&lt;p&gt;Use 0.7" Vector font @ 8% ratio</description>
+<text x="1.27" y="-1.27" size="3.048" layer="51" font="vector" ratio="15" align="top-left">Ordering Instructions:</text>
+<wire x1="0" y1="0" x2="101.6" y2="0" width="0.2032" layer="51"/>
+<wire x1="101.6" y1="0" x2="101.6" y2="-8.89" width="0.2032" layer="51"/>
+<wire x1="101.6" y1="-8.89" x2="101.6" y2="-50.8" width="0.2032" layer="51"/>
+<wire x1="101.6" y1="-50.8" x2="0" y2="-50.8" width="0.2032" layer="51"/>
+<wire x1="0" y1="-50.8" x2="0" y2="-8.89" width="0.2032" layer="51"/>
+<wire x1="0" y1="-8.89" x2="0" y2="0" width="0.2032" layer="51"/>
+<wire x1="0" y1="-8.89" x2="101.6" y2="-8.89" width="0.2032" layer="51"/>
+<text x="1.27" y="-6.35" size="1.778" layer="51" font="vector" align="top-left">(Add these comments when uploading gerbers.)</text>
+</package>
+<package name="PRODUCTION_INSTRUCTIONS">
+<description>&lt;h3&gt;Special Production Instructions Alert&lt;/h3&gt;
+&lt;p&gt;Placeholder for notes on unique production processes, which may include special wash or depaneling instructions.&lt;/p&gt;</description>
+<text x="1.27" y="-1.27" size="3.048" layer="51" font="vector" ratio="15" align="top-left">Production Instructions:</text>
+<wire x1="0" y1="0" x2="101.6" y2="0" width="0.2032" layer="51"/>
+<wire x1="101.6" y1="0" x2="101.6" y2="-8.89" width="0.2032" layer="51"/>
+<wire x1="101.6" y1="-8.89" x2="101.6" y2="-50.8" width="0.2032" layer="51"/>
+<wire x1="101.6" y1="-50.8" x2="0" y2="-50.8" width="0.2032" layer="51"/>
+<wire x1="0" y1="-50.8" x2="0" y2="-8.89" width="0.2032" layer="51"/>
+<wire x1="0" y1="-8.89" x2="0" y2="0" width="0.2032" layer="51"/>
+<wire x1="0" y1="-8.89" x2="101.6" y2="-8.89" width="0.2032" layer="51"/>
+<text x="1.27" y="-6.35" size="1.778" layer="51" font="vector" align="top-left">(Add these comments when uploading gerbers.)</text>
+</package>
 </packages>
 <symbols>
 <symbol name="FRAME-LETTER">
@@ -21652,6 +21680,17 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="-5.852896875" y="0.48276875"/>
 </polygon>
 </symbol>
+<symbol name="SPECIAL_INSTRUCTIONS">
+<description>&lt;h3&gt;Special Ordering/Production Instructions Alert&lt;/h3&gt;
+&lt;p&gt;Symbol for special PCB ordering instructions or unique production process warnings.&lt;/p&gt;
+&lt;p&gt;PCB Standard is 1.6mm FR4, 1 oz copper, immersion silver plating, red soldermask, white silkscreen.&lt;/p&gt;
+&lt;p&gt;Unique production processes may include special wash or depaneling instructions.&lt;/p&gt;</description>
+<text x="1.27" y="0.6985" size="1.27" layer="94" font="vector" ratio="20">Special Instructions</text>
+<wire x1="0" y1="0" x2="0" y2="2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="2.54" x2="22.86" y2="2.54" width="0.254" layer="94"/>
+<wire x1="22.86" y1="2.54" x2="22.86" y2="0" width="0.254" layer="94"/>
+<wire x1="22.86" y1="0" x2="0" y2="0" width="0.254" layer="94"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="FRAME-LETTER" prefix="FRAME">
@@ -21909,6 +21948,45 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </technologies>
 </device>
 <device name="_CONNECTOR_COPPER_NO_MASK" package="QWIIC_5.5MM_COPPER_NO_MASK">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SPECIAL_INSTRUCTIONS" prefix="LOGO">
+<description>&lt;h3&gt;Special Ordering/Production Instructions Alert&lt;/h3&gt;
+&lt;p&gt;Symbol for special PCB ordering instructions or unique production process warnings.&lt;/p&gt;
+&lt;p&gt;&lt;table border=1 cellpadding=1&gt;
+&lt;tr&gt;&lt;th&gt;Ordering Instructions&lt;/th&gt;&lt;th&gt;Production Instructions&lt;/th&gt;
+&lt;tr&gt;&lt;td&gt;
+&lt;p&gt;&lt;b&gt;Types of information that should be added to box:&lt;/b&gt;
+&lt;ul&gt;&lt;li&gt;Copper weight&lt;/li&gt;&lt;li&gt;Soldermask color&lt;/li&gt;&lt;li&gt;Silk color&lt;/li&gt;&lt;li&gt;PCB thickness&lt;/li&gt;&lt;li&gt;Number of layers&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;PCB Standard:&lt;/b&gt;
+&lt;ul&gt;&lt;li&gt;1.6mm FR4&lt;/li&gt;&lt;li&gt;1 oz copper&lt;/li&gt;&lt;li&gt;immersion silver plating&lt;/li&gt;&lt;li&gt;red soldermask&lt;/li&gt;&lt;li&gt;white silkscreen&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p&gt;&lt;b&gt;Types of information that should be added to box:&lt;/b&gt;
+&lt;ul&gt;&lt;li&gt;Special wash requirements&lt;/li&gt;&lt;li&gt;Depaneling instructions&lt;/li&gt;&lt;li&gt;Humidification&lt;/li&gt;&lt;li&gt;Glue curing&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;
+&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Default text settings:&lt;/b&gt;
+&lt;ul&gt;
+&lt;li&gt;0.07 inch&lt;/li&gt;
+&lt;li&gt;9% ratio&lt;/li&gt;
+&lt;li&gt;50% line distance&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="SPECIAL_INSTRUCTIONS" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-ORDERING" package="ORDERING_INSTRUCTIONS">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-PRODUCTION" package="PRODUCTION_INSTRUCTIONS">
 <technologies>
 <technology name=""/>
 </technologies>
@@ -24790,6 +24868,7 @@ available in a small SOT-5X3 package.&lt;/p&gt;</description>
 <part name="SUPPLY9" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="GND5" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="R5" library="SparkFun-Resistors" deviceset="10KOHM" device="-0603-1/10W-1%" value="10k"/>
+<part name="LOGO4" library="SparkFun-Aesthetics" deviceset="SPECIAL_INSTRUCTIONS" device="-ORDERING"/>
 </parts>
 <sheets>
 <sheet>
@@ -24800,8 +24879,7 @@ pull-up resistors.</text>
 <wire x1="0" y1="76.2" x2="114.3" y2="76.2" width="0.2032" layer="97" style="longdash"/>
 <wire x1="114.3" y1="76.2" x2="248.92" y2="76.2" width="0.2032" layer="97" style="longdash"/>
 <wire x1="114.3" y1="185.42" x2="114.3" y2="129.54" width="0.2032" layer="97" style="longdash"/>
-<text x="55.626" y="175.514" size="1.27" layer="97" font="vector" align="center">VDD Range: 1.71V - 3.6V
-I/O are 5V Tolerant</text>
+<text x="55.626" y="175.514" size="1.778" layer="97" font="vector" align="center">VDD Range: 1.71V - 3.6V</text>
 <text x="238.76" y="7.62" size="2.54" layer="94" font="vector">v01</text>
 <text x="177.8" y="180.34" size="2.54" layer="94" font="vector" align="center">Jumpers</text>
 <text x="218.44" y="137.16" size="1.778" layer="97" font="vector">Cut trace to
@@ -24819,14 +24897,14 @@ Address</text>
 <wire x1="243.84" y1="96.52" x2="243.84" y2="101.6" width="0.127" layer="97"/>
 <wire x1="243.84" y1="101.6" x2="243.84" y2="106.68" width="0.127" layer="97"/>
 <wire x1="243.84" y1="106.68" x2="200.66" y2="106.68" width="0.127" layer="97"/>
-<text x="213.36" y="104.14" size="1.778" layer="97" font="vector" align="center">0x44</text>
+<text x="213.36" y="104.14" size="1.778" layer="97" font="vector" align="center">0x44 (Default)</text>
 <text x="213.36" y="99.06" size="1.778" layer="97" font="vector" align="center">0x45</text>
 <text x="213.36" y="93.98" size="1.778" layer="97" font="vector" align="center">0x46</text>
 <wire x1="200.66" y1="101.6" x2="243.84" y2="101.6" width="0.127" layer="97"/>
 <wire x1="200.66" y1="96.52" x2="243.84" y2="96.52" width="0.127" layer="97"/>
 <wire x1="200.66" y1="91.44" x2="226.06" y2="91.44" width="0.127" layer="97"/>
 <text x="236.22" y="104.14" size="1.778" layer="97" font="vector" align="center">GND</text>
-<text x="236.22" y="99.06" size="1.778" layer="97" font="vector" align="center">VDD</text>
+<text x="236.22" y="99.06" size="1.778" layer="97" font="vector" align="center">3.3V/VDD</text>
 <text x="236.22" y="93.98" size="1.778" layer="97" font="vector" align="center">SDA</text>
 <wire x1="226.06" y1="91.44" x2="243.84" y2="91.44" width="0.127" layer="97"/>
 <wire x1="243.84" y1="114.3" x2="226.06" y2="114.3" width="0.127" layer="97"/>
@@ -24835,12 +24913,20 @@ Address</text>
 <wire x1="243.84" y1="114.3" x2="243.84" y2="106.68" width="0.127" layer="97"/>
 <text x="236.22" y="110.49" size="1.778" layer="97" font="vector" align="center">ADDR/ADDR2 
 Jumper</text>
-<text x="176.022" y="85.852" size="1.778" layer="97" font="vector" align="center">WARNING: If using SDA for Address
+<text x="178.562" y="85.852" size="1.778" layer="97" font="vector" align="center">WARNING: If using SDA for Address
 selection (ADDR2), make sure to 
 OPEN the ADDR selection jumper.</text>
 <wire x1="226.06" y1="114.3" x2="226.06" y2="91.44" width="0.1524" layer="97"/>
 <wire x1="114.3" y1="129.54" x2="248.92" y2="129.54" width="0.1524" layer="97" style="longdash"/>
 <text x="177.8" y="121.92" size="2.54" layer="94" font="vector" align="center">Address Selection Jumpers</text>
+<wire x1="177.8" y1="99.06" x2="177.8" y2="91.44" width="0.1524" layer="97" style="dashdot"/>
+<wire x1="177.8" y1="99.06" x2="176.784" y2="98.044" width="0.1524" layer="97" style="dashdot"/>
+<wire x1="177.8" y1="99.06" x2="178.816" y2="98.044" width="0.1524" layer="97" style="dashdot"/>
+<wire x1="172.72" y1="81.28" x2="172.72" y2="78.74" width="0.1524" layer="97" style="dashdot"/>
+<wire x1="172.72" y1="78.74" x2="142.24" y2="78.74" width="0.1524" layer="97" style="dashdot"/>
+<wire x1="142.24" y1="78.74" x2="142.24" y2="99.06" width="0.1524" layer="97" style="dashdot"/>
+<wire x1="142.24" y1="99.06" x2="140.97" y2="97.79" width="0.1524" layer="97" style="dashdot"/>
+<wire x1="142.24" y1="99.06" x2="143.51" y2="97.79" width="0.1524" layer="97" style="dashdot"/>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes">
@@ -24890,12 +24976,12 @@ OPEN the ADDR selection jumper.</text>
 <attribute name="NAME" x="86.36" y="58.674" size="1.778" layer="95" font="vector"/>
 </instance>
 <instance part="D1" gate="G$1" x="215.9" y="157.48" smashed="yes">
-<attribute name="NAME" x="212.471" y="152.908" size="1.778" layer="95" font="vector" rot="R90"/>
-<attribute name="VALUE" x="217.805" y="152.908" size="1.778" layer="96" font="vector" rot="R90" align="top-left"/>
+<attribute name="NAME" x="223.012" y="156.591" size="1.778" layer="95" font="vector" rot="R180"/>
+<attribute name="VALUE" x="223.012" y="151.765" size="1.778" layer="96" font="vector" rot="R180" align="top-left"/>
 </instance>
 <instance part="R4" gate="G$1" x="215.9" y="167.64" smashed="yes" rot="R90">
-<attribute name="NAME" x="214.376" y="167.64" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="217.424" y="167.64" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
+<attribute name="NAME" x="220.98" y="170.688" size="1.778" layer="95" font="vector" rot="R180" align="bottom-center"/>
+<attribute name="VALUE" x="220.98" y="166.624" size="1.778" layer="96" font="vector" rot="R180" align="top-center"/>
 </instance>
 <instance part="LED" gate="G$1" x="215.9" y="144.78" smashed="yes" rot="R90">
 <attribute name="NAME" x="223.52" y="147.828" size="1.778" layer="95" font="vector" rot="R180"/>
@@ -24928,8 +25014,8 @@ OPEN the ADDR selection jumper.</text>
 <attribute name="VALUE" x="43.18" y="119.126" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
 <instance part="R3" gate="G$1" x="68.58" y="142.24" smashed="yes" rot="R90">
-<attribute name="NAME" x="67.056" y="142.24" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="70.104" y="142.24" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
+<attribute name="NAME" x="73.66" y="145.796" size="1.778" layer="95" font="vector" rot="R180" align="bottom-center"/>
+<attribute name="VALUE" x="73.66" y="141.224" size="1.778" layer="96" font="vector" rot="R180" align="top-center"/>
 </instance>
 <instance part="SUPPLY7" gate="G$1" x="68.58" y="149.86" smashed="yes">
 <attribute name="VALUE" x="68.58" y="152.654" size="1.778" layer="96" font="vector" align="bottom-center"/>
@@ -24957,9 +25043,10 @@ OPEN the ADDR selection jumper.</text>
 <attribute name="VALUE" x="48.26" y="27.94" size="1.778" layer="96" font="vector"/>
 </instance>
 <instance part="R5" gate="G$1" x="137.16" y="114.3" smashed="yes" rot="R90">
-<attribute name="NAME" x="135.636" y="114.3" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="138.684" y="114.3" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
+<attribute name="NAME" x="142.24" y="117.856" size="1.778" layer="95" font="vector" rot="R180" align="bottom-center"/>
+<attribute name="VALUE" x="142.24" y="113.284" size="1.778" layer="96" font="vector" rot="R180" align="top-center"/>
 </instance>
+<instance part="LOGO4" gate="G$1" x="210.82" y="33.02" smashed="yes"/>
 </instances>
 <busses>
 </busses>
