@@ -24562,7 +24562,7 @@ available in a small SOT-5X3 package.&lt;/p&gt;</description>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="PROD_ID" value="IC-8868" constant="no"/>
+<attribute name="PROD_ID" value="IC-18868" constant="no"/>
 </technology>
 </technologies>
 </device>
