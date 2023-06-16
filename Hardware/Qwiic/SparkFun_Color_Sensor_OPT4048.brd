@@ -201,7 +201,6 @@
 <wire x1="0" y1="0" x2="25.4" y2="0" width="0.2032" layer="20"/>
 <wire x1="25.4" y1="0" x2="25.4" y2="25.4" width="0.2032" layer="20"/>
 <text x="24.139525" y="11.420475" size="0.8128" layer="16" font="vector" ratio="22" rot="MR90">v01</text>
-<rectangle x1="12.446" y1="13.462" x2="12.4968" y2="13.7668" layer="41"/>
 <text x="31.75" y="25.4" size="1.778" layer="51" font="vector">1.6mm Thickness
 1 oz. Copper
 Lead-Free HASL finish
