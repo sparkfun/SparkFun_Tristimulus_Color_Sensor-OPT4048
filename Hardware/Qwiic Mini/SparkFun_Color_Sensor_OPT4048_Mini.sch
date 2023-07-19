@@ -23131,7 +23131,7 @@ available in a small SOT-5X3 package.&lt;/p&gt;</description>
 <sheets>
 <sheet>
 <plain>
-<text x="241.3" y="7.62" size="2.54" layer="94" font="vector">v01</text>
+<text x="241.3" y="7.62" size="2.54" layer="94" font="vector">v10</text>
 <text x="71.12" y="60.96" size="2.54" layer="94" font="vector" align="center">Qwiic Connectors and Header</text>
 <text x="168.148" y="11.176" size="2.54" layer="94" font="vector">Elias Santistevan</text>
 <text x="55.88" y="180.34" size="2.54" layer="94" font="vector" align="center">Color Sensor - OPT4048</text>

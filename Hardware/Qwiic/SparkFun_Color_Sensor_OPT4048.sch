@@ -24636,7 +24636,7 @@ pull-up resistors.</text>
 <wire x1="114.3" y1="76.2" x2="248.92" y2="76.2" width="0.2032" layer="97" style="longdash"/>
 <wire x1="114.3" y1="185.42" x2="114.3" y2="129.54" width="0.2032" layer="97" style="longdash"/>
 <text x="55.626" y="175.514" size="1.778" layer="97" font="vector" align="center">VDD Range: 1.71V - 3.6V</text>
-<text x="238.76" y="7.62" size="2.54" layer="94" font="vector">v01</text>
+<text x="238.76" y="7.62" size="2.54" layer="94" font="vector">v10</text>
 <text x="177.8" y="180.34" size="2.54" layer="94" font="vector" align="center">Jumpers</text>
 <text x="218.44" y="137.16" size="1.778" layer="97" font="vector">Cut trace to
 disconnect Power
