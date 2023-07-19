@@ -23127,7 +23127,6 @@ available in a small SOT-5X3 package.&lt;/p&gt;</description>
 <part name="GND3" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="0X45" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NO" device="_SILK" package3d_urn="urn:adsk.eagle:package:39279/1"/>
 <part name="0X44" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NC_TRACE" device="_SILK" package3d_urn="urn:adsk.eagle:package:39281/1"/>
-<part name="INT" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NC_TRACE" device="_SILK" package3d_urn="urn:adsk.eagle:package:39281/1"/>
 </parts>
 <sheets>
 <sheet>
@@ -23177,8 +23176,6 @@ Address</text>
 <text x="177.8" y="121.92" size="2.54" layer="94" font="vector" align="center">Address Selection Jumpers</text>
 <text x="177.8" y="116.84" size="1.778" layer="97" font="vector" align="center">Close Jumper to select
 respective Address.</text>
-<text x="78.74" y="139.7" size="1.778" layer="97" font="vector">Cut trace to remove pull-up 
-from interrupt pin. </text>
 </plain>
 <instances>
 <instance part="FD5" gate="G$1" x="243.84" y="30.48" smashed="yes"/>
@@ -23269,12 +23266,12 @@ from interrupt pin. </text>
 <instance part="GND4" gate="1" x="43.18" y="119.38" smashed="yes">
 <attribute name="VALUE" x="43.18" y="119.126" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
-<instance part="R7" gate="G$1" x="68.58" y="154.94" smashed="yes" rot="R90">
-<attribute name="NAME" x="73.66" y="158.496" size="1.778" layer="95" font="vector" rot="R180" align="bottom-center"/>
-<attribute name="VALUE" x="73.66" y="153.924" size="1.778" layer="96" font="vector" rot="R180" align="top-center"/>
+<instance part="R7" gate="G$1" x="68.58" y="142.24" smashed="yes" rot="R90">
+<attribute name="NAME" x="73.66" y="145.796" size="1.778" layer="95" font="vector" rot="R180" align="bottom-center"/>
+<attribute name="VALUE" x="73.66" y="141.224" size="1.778" layer="96" font="vector" rot="R180" align="top-center"/>
 </instance>
-<instance part="SUPPLY11" gate="G$1" x="68.58" y="162.56" smashed="yes">
-<attribute name="VALUE" x="68.58" y="165.354" size="1.778" layer="96" font="vector" align="bottom-center"/>
+<instance part="SUPPLY11" gate="G$1" x="68.58" y="149.86" smashed="yes">
+<attribute name="VALUE" x="68.58" y="152.654" size="1.778" layer="96" font="vector" align="bottom-center"/>
 </instance>
 <instance part="SUPPLY12" gate="G$1" x="147.32" y="116.84" smashed="yes">
 <attribute name="VALUE" x="147.32" y="119.634" size="1.778" layer="96" font="vector" align="bottom-center"/>
@@ -23304,9 +23301,6 @@ from interrupt pin. </text>
 </instance>
 <instance part="0X44" gate="G$1" x="139.7" y="86.36" smashed="yes">
 <attribute name="NAME" x="139.7" y="89.154" size="1.778" layer="95" font="vector" align="center"/>
-</instance>
-<instance part="INT" gate="G$1" x="68.58" y="142.24" smashed="yes" rot="R90">
-<attribute name="NAME" x="73.66" y="141.986" size="1.778" layer="95" font="vector" rot="R180" align="center"/>
 </instance>
 </instances>
 <busses>
@@ -23348,7 +23342,7 @@ from interrupt pin. </text>
 </segment>
 <segment>
 <pinref part="R7" gate="G$1" pin="2"/>
-<wire x1="68.58" y1="162.56" x2="68.58" y2="160.02" width="0.1524" layer="91"/>
+<wire x1="68.58" y1="149.86" x2="68.58" y2="147.32" width="0.1524" layer="91"/>
 <pinref part="SUPPLY11" gate="G$1" pin="3.3V"/>
 </segment>
 <segment>
@@ -23469,11 +23463,11 @@ from interrupt pin. </text>
 <net name="INT" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="INT"/>
-<label x="71.12" y="134.62" size="1.27" layer="95" font="vector" xref="yes"/>
-<wire x1="66.04" y1="134.62" x2="68.58" y2="134.62" width="0.1524" layer="91"/>
-<pinref part="INT" gate="G$1" pin="1"/>
-<wire x1="68.58" y1="134.62" x2="71.12" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="68.58" y1="134.62" x2="66.04" y2="134.62" width="0.1524" layer="91"/>
 <wire x1="68.58" y1="137.16" x2="68.58" y2="134.62" width="0.1524" layer="91"/>
+<pinref part="R7" gate="G$1" pin="1"/>
+<label x="71.12" y="134.62" size="1.27" layer="95" font="vector" xref="yes"/>
+<wire x1="68.58" y1="134.62" x2="71.12" y2="134.62" width="0.1524" layer="91"/>
 <junction x="68.58" y="134.62"/>
 </segment>
 <segment>
@@ -23539,13 +23533,6 @@ from interrupt pin. </text>
 <wire x1="147.32" y1="104.14" x2="147.32" y2="101.6" width="0.1524" layer="91"/>
 <pinref part="0X45" gate="G$1" pin="2"/>
 <wire x1="144.78" y1="101.6" x2="147.32" y2="101.6" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$5" class="0">
-<segment>
-<pinref part="INT" gate="G$1" pin="2"/>
-<pinref part="R7" gate="G$1" pin="1"/>
-<wire x1="68.58" y1="147.32" x2="68.58" y2="149.86" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
