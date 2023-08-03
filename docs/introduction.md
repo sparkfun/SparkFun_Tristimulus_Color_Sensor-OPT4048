@@ -9,43 +9,15 @@ https://www.sparkfun.com/products/22638 - Main
 
 
 ## Introduction
-<!-- Single Product Card -->
-
-<div class="grid cards desc" markdown>
-
--    <a href="https://www.sparkfun.com/products/<SKU Number>">
-    **<Official Product Name>**<br>
-    **SKU:** <Product SKU>
-
-    ---
-
-    <figre markdown>
-    ![Product Thumbnail](<Product Image Link>)
-    </figure></a>
-
-    <center>
-    <article class="video_desc">
-    <iframe src="<Embedded Video>" title="Product Showcase: <Official Product Name>" frameborder="0" allow="accelerometer; autoplay; clipboard-write;encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </article>
-    </center>
-
--    Short product description with a link to the product page in the first or second sentence.
-
-    <center>
-    [Purchase from SparkFun :fontawesome-solid-cart-plus:{ .heart }](https://www.sparkfun.com/products/<SKU Number>){ .md-button .md-button--primary }
-    </center>
-
-</div>
-
 
 <!-- Double Product Card -->
 Short product description with a link to the product pages in the first or second sentence.
 
 <section class="grid cards col-2"markdown>
 
--	<a href="https://www.sparkfun.com/products/<SKU Number>">
-	**SparkFun <Product Name>**<br>
-	**SKU:** <Product SKU>
+-	<a href="https://www.sparkfun.com/products/22638">
+	**SparkFun Tristimulus Color Sensor - OPT4048DTSR (Qwiic)**<br>
+	**SKU:** SEN-22638
 
 	---
 
@@ -57,12 +29,12 @@ Short product description with a link to the product pages in the first or secon
     Short product description
 
 	<center>
-    [Purchase from SparkFun :fontawesome-solid-cart-plus:{ .heart }](https://www.sparkfun.com/products/<SKU Number>){ .md-button .md-button--primary }
+    [Purchase from SparkFun :fontawesome-solid-cart-plus:{ .heart }](https://www.sparkfun.com/products/22638){ .md-button .md-button--primary }
     </center>
 
--	<a href="https://www.sparkfun.com/products/<SKU Number>">
-	**SparkFun <Product Name>**<br>
-	**SKU:** <Product SKU>
+-	<a href="https://www.sparkfun.com/products/22639">
+	**SparkFun Mini Tristimulus Color Sensor - OPT4048DTSR (Qwiic)**<br>
+	**SKU:** SEN-22639
 
 	---
 
@@ -73,7 +45,7 @@ Short product description with a link to the product pages in the first or secon
     Short product description
 
 	<center>
-	[Purchase from SparkFun :fontawesome-solid-cart-plus:{ .heart }](https://www.sparkfun.com/products/<SKU Number>){ .md-button .md-button--primary }
+	[Purchase from SparkFun :fontawesome-solid-cart-plus:{ .heart }](https://www.sparkfun.com/products/22639){ .md-button .md-button--primary }
 	</center>
 
 </section>
@@ -84,7 +56,7 @@ To get started, users will need a few items. Now some users may already have a f
 
 <div class="grid cards" markdown>
 
--   <a href="https://www.sparkfun.com/products/<SKU Number>">
+-   <a href="https://www.sparkfun.com/products/22638">
     <figure markdown>
     ![Product Thumbnail](<Product Image Link>)
     </figure>

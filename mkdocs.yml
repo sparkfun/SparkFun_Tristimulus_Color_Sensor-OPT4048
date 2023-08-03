@@ -1,11 +1,11 @@
 # Documentation page information
 site_name: <Official Product Name> Hookup Guide
 site_description: A guide for getting started with the <Product Name>
-site_url: https://sparkfun.github.io/<GitHub Repo Name>
+site_url: https://sparkfun.github.io/SparkFun_Tristimulus_Color_Sensor-OPT4048
 site_author: SparkFun Electronics
 
-repo_url: https://github.com/sparkfun/<GitHub Repo Name>
-repo_name: sparkfun/<GitHub Repo Name>
+repo_url: https://github.com/sparkfun/SparkFun_Tristimulus_Color_Sensor-OPT4048
+repo_name: sparkfun/SparkFun_Tristimulus_Color_Sensor-OPT4048
 
 copyright:
   Copyright 2023 - <a href="https://www.sparkfun.com/" target="_blank" rel="noopener">SparkFun Electronics&#174;</a><br>
@@ -144,7 +144,6 @@ theme:
 # Add the installation of any new plugins to the ./github/workflows/mkdocs.yml file also
 plugins:
   - search
-  - typeset
   - redirects:
       redirect_maps:
           'index.md': 'introduction.md'
@@ -154,7 +153,7 @@ plugins:
       type: timeago
   # Add git committers at the bottom of the page
   - git-committers:
-      repository: sparkfun/<GitHub Repo Name>
+      repository: sparkfun/SparkFun_Tristimulus_Color_Sensor-OPT4048
       branch: main
   # Add git authors at the bottom of the page
   - git-authors
