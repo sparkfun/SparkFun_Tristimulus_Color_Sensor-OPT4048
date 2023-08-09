@@ -2,17 +2,55 @@
 icon: material/cog
 ---
 
-<!-- This section goes into detail about the various components on the product, solder jumpers as well as the board dimensions with a dimensional drawing exported from Eagle. -->
+## Color Sensor - OPT4048
 
-## Primary Component
+The OPT4048 measures the color properties of the light source that illuminates the device. It measures four channels with special spectral characteristics, which helps extract properties of the light source, color coordinates, lux level, and the correlated color temperature. This is useful for applications such as display brightness, color temperature adjustment, camera color temperature correction, object true color recognition & medical applications. For more information, refer to the [datasheet](assets/board_files/opt4048.pdf).
 
-## Secondary Components(s)
-<!-- Secondary Components if necessary (UART converters, charge IC, etc.) -->
+<div class="grid.cards.desc" markdown>
 
-## Connectors/Connections
-<!-- Qwiic connectors, USB, PTHs, Power, etc. -->
+<table class="pdf" style="border-style:none;" markdown="1">
+<tbody markdown="1">
+<tr markdown="1">
+<td align="center" width="35%" markdown="block">
+[![SparkFun 6DoF - LSM6DSV16X (Qwiic)](assets/board_files/22638-SparkFun_Color_Sensor_OPT4048-BoardOutline.png){ width=90% }](assets/board_files/22638-SparkFun_Color_Sensor_OPT4048-BoardOutline.png)
+</td>
+<td align="center" width="35%" markdown="block">
+[![SparkFun 6DoF Micro - LSM6DSV16X (Qwiic)](assets/board_files/22638-SparkFun_Color_Sensor_OPT4048-BoardOutline.png){ width=40% }](assets/board_files/22638-SparkFun_Color_Sensor_OPT4048-BoardOutline.png)
+</td>
+</tr>
+</tbody>
+</table>
+</div class>
+
+
+
+
+## Qwiic Connectors
+
+VDD Range: 1.71V - 3.6V. 
+
+###Power
+
+Ideally, power to these boards will be provided by the Qwiic cables. However, should you wish to provide power separately, the 1" x 1" board has its pins broken out to PTH and you can wire up power via these. 
+
+!!! warning
+    <p>Make sure to pay attention to logic levels - supply voltage range should be between 1.71V - 3.6V. </p>
+
+
+## GPIO
+
+
+If you do not want to use the Qwiic connectors, I<sup>2</sup>C functionality has been broken out to PTH pins on the 1x1" board.
+
+Interrupt pins
+
 
 ## LEDs
+
+When appropriate power is provided to the board, the power LED lights up on the front of the board. 
+
+
+
 
 ## Jumpers
 
@@ -24,17 +62,49 @@ icon: material/cog
         How to Work with Jumper Pads and PCB Traces</a>
 	</p>
 
+### Address Selection 
+
+The SparkFun Tristimulus Color Sensor - OPT4048DTSR (Qwiic) boards have a default I<sup>2</sup>C address of 0x44, but by manipulating the address jumper on the back of the board, you can select 0x45 or 0x46.
+
+
+
+### LED Jumpers
+
+If you are concerned about power consumption or you just don't like LEDs, cut the traces here to disconnect the Power LED from, well, power. 
+
+
+
+### I2C
+
+Like our other Qwiic boards, the SparkFun Tristimulus Color Sensor - OPT4048DTSR (Qwiic) boards come equipped with pull-up resistors on the clock and data pins. If you are daisy-chaining multiple Qwiic devices, you will want to cut this jumper; if multiple sensors are connected to the bus with the pull-up resistors enabled, the parallel equivalent resistance will create too strong of a pull-up for the bus to operate correctly. As a general rule of thumb, disable all but one pair of pull-up resistors if multiple devices are connected to the bus. To disable the pull up resistors, use an X-acto knife to cut the joint between the two jumper pads highlighted below.
 
 ## Board Dimensions
 
-The board dimensions are illustrated in the drawing below; the listed measurements are in inches.
+The SparkFun Tristimulus Color Sensor - OPT4048DTSR (Qwiic) follows the standard 1" x 1" convention of most of our Qwiic breakout boards. 
 
 <figure markdown>
-[![Board Dimensions](../assets/img/dimensions.png){ width="400" }](../assets/img/dimensions.png "Click to enlarge")
-<figcaption markdown>
-[Board dimensions (PDF)](../assets/board_files/dimensions.pdf) for the <Product Name>, in inches.
-</figcaption>
+[![SparkFun Tristimulus Color Sensor - OPT4048DTSR (Qwiic) Board Outline](assets/board_files/22638-SparkFun_Color_Sensor_OPT4048-BoardOutline.png){ width=90% }](assets/board_files/22638-SparkFun_Color_Sensor_OPT4048-BoardOutline.png "Click to enlarge")
+<figcaption markdown>SparkFun Tristimulus Color Sensor - OPT4048DTSR (Qwiic) Board Outline</figcaption>
 </figure>
+
+The SparkFun Mini Tristimulus Color Sensor - OPT4048DTSR (Qwiic) measures 1" x 0.5". 
+
+<figure markdown>
+[![SparkFun 6DoF - BMI270 (Qwiic) Board Outline](assets/board_files/22639-SparkFun_Color_Sensor_OPT4048-Mini-BoardOutline.png){ width=90% }](assets/board_files/22639-SparkFun_Color_Sensor_OPT4048-Mini-BoardOutline.png "Click to enlarge")
+<figcaption markdown>SparkFun Mini Tristimulus Color Sensor - OPT4048DTSR (Qwiic) Board  Outline</figcaption>
+</figure>
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 ??? tip "Need more measurements?"

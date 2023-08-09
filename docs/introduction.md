@@ -2,12 +2,6 @@
 icon: material/book-open-page-variant
 ---
 
-# Hookup Guide
-
-https://www.sparkfun.com/products/22639 - Mini
-https://www.sparkfun.com/products/22638 - Main
-
-
 ## Introduction
 
 <!-- Double Product Card -->
@@ -54,7 +48,7 @@ Short product description with a link to the product pages in the first or secon
 ## Required Materials
 To get started, users will need a few items. Now some users may already have a few of these items, feel free to modify your cart accordingly.
 
-<div class="grid cards" markdown>
+<div class="grid cards hide col-4" markdown>
 
 -   <a href="https://www.sparkfun.com/products/22638">
     <figure markdown>
@@ -63,8 +57,24 @@ To get started, users will need a few items. Now some users may already have a f
 
     ---
 
-    **<Official Product Name>**<br>
-    <Product SKU></a>
+    **SparkFun Tristimulus Color Sensor - OPT4048DTSR (Qwiic)**<br>
+    SEN-22638</a>
+
+-   <a href="https://www.sparkfun.com/products/22639">
+      <figure markdown>
+        <img src="assets/20594-SparkFun_DataLogger_IoT-ESP32_01.jpg" style="width:140px; height:140px; object-fit:contain;" alt="SparkFun DataLogger IoT - 9DoF">
+      </figure>
+    </a>
+
+    ---
+
+    <a href="https://www.sparkfun.com/products/22639">
+      <b>SparkFun Mini Tristimulus Color Sensor - OPT4048DTSR (Qwiic)</b>
+      <br />
+      SEN-22639
+    </a>
+
+
 
 </div>
 
@@ -83,9 +93,9 @@ Below, are a few tutorials that may help users familiarize themselves with vario
 
     **<Tutorial Name>**</a>
 
--   <a href="https://docs.sparkfun.com/<GitHub Repo Name>">
+-   <a href="https://docs.sparkfun.com/SparkFun_Tristimulus_Color_Sensor-OPT4048">
     <figure markdown>
-	![Tutorial Thumbnail](https://docs.sparkfun.com/<GitHub Repo Name>/docs/assets/img/thumbnail.jpg)
+	![Tutorial Thumbnail](https://docs.sparkfun.com/SparkFun_Tristimulus_Color_Sensor-OPT4048/docs/assets/img/thumbnail.jpg)
 	</figure>
 
     ---
