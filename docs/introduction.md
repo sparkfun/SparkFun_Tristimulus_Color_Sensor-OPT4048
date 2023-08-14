@@ -5,7 +5,7 @@ icon: material/book-open-page-variant
 ## Introduction
 
 <!-- Double Product Card -->
-Short product description with a link to the product pages in the first or second sentence.
+
 
 <section class="grid cards col-2"markdown>
 
@@ -20,7 +20,7 @@ Short product description with a link to the product pages in the first or secon
 	</figure>
 	</a>
 
-    Short product description
+    The SparkFun Tristimulus Color Sensor - OPT4048DTSR (Qwiic) is built around the OPT4048 High Speed High Precision Tristimulus XYZ Color Sensor from Texas Instruments. It is a 1" x 1" Qwiic enabled board that can support up to 4 devices on a shared I<sup>2</sup>C bus - each capable of measuring four channels with specific engineered spectral responses.
 
 	<center>
     [Purchase from SparkFun :fontawesome-solid-cart-plus:{ .heart }](https://www.sparkfun.com/products/22638){ .md-button .md-button--primary }
@@ -73,33 +73,44 @@ To get started, users will need a few items. Now some users may already have a f
       <br />
       SEN-22639
     </a>
-
-
-
 </div>
 
 
 ## Suggested Reading
-Below, are a few tutorials that may help users familiarize themselves with various aspects of this product:
 
-<div class="grid cards" markdown align="center">
+If you aren’t familiar with the following concepts, we recommend checking out these tutorials before continuing.
 
--   <a href="https://learn.sparkfun.com/tutorials/<Tutorial ID>">
-    <figure markdown>
-    ![Tutorial Thumbnail](https://cdn.sparkfun.com/c/264-148/assets/learn_tutorials/<Thumbnail Link>.jpg)
-    </figure>
+<section class="cards">
 
-    ---
+<!--   card 1 -->
+  <article class="card">
+    <picture class="thumbnail">
+         <img class="category__01" src="https://cdn.sparkfun.com/assets/custom_pages/2/7/2/qwiic-logo-registered.jpg" alt="" />
+    </picture>
+    <div class="card-content">
+      <a href="https://www.sparkfun.com/qwiic">Qwiic Connect System</a>
+   </div><!-- .card-content -->
+  </article>
 
-    **<Tutorial Name>**</a>
+<!--   card 2 -->
+  <article class="card">
+    <picture class="thumbnail">
+         <img class="category__03" src="https://cdn.sparkfun.com/assets/learn_tutorials/8/2/I2C-Block-Diagram.jpg" alt="" />
+    </picture>
+    <div class="card-content">
+      <a href="https://learn.sparkfun.com/tutorials/i2c">I2C</a>
+   </div><!-- .card-content -->
+  </article>
 
--   <a href="https://docs.sparkfun.com/SparkFun_Tristimulus_Color_Sensor-OPT4048">
-    <figure markdown>
-	![Tutorial Thumbnail](https://docs.sparkfun.com/SparkFun_Tristimulus_Color_Sensor-OPT4048/docs/assets/img/thumbnail.jpg)
-	</figure>
+<!--   card 3 -->
+  <article class="card">
+    <picture class="thumbnail">
+         <img class="category__03" src="https://cdn.sparkfun.com/assets/7/0/f/3/9/512bccd7ce395f3e47000000.jpg" alt="" />
+    </picture>
+    <div class="card-content">
+      <a href="https://learn.sparkfun.com/tutorials/light">I2C</a>
+   </div><!-- .card-content -->
+  </article>
+</section>
 
-    ---
 
-    **<Product Name> Hookup Guide**</a>
-
-</div>

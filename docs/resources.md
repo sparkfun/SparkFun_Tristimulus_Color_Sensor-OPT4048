@@ -3,12 +3,24 @@
 
 For more resources related to the <Product Name>, check out the links listed here: 
 
-* [Product Page](https://www.sparkfun.com/products/<SKU Number>)
-* [Schematic](./board_files/schematic.pdf) (PDF)
-* [Eagle Files](./board_files/eagle_files.zip) (ZIP)
-* [Board Dimensions](./board_files/dimensions.pdf) (PDF)
-* [Graphical Datasheet](./board_files/graphical_datasheet.pdf) (PDF)
-* [<Product Name> Datasheet](./component_documentation/<Product Name>.pdf) (PDF)
-* [<Product Name> Arduino Library](https://github.com/sparkfun/<Arduino Library Name>) *(if applicable)*
-* [Hardware GitHub Respository](https://github.com/sparkfun/<GitHub Repo Name>)
-* [SFE Product Showcase](<Video Webpage>)
+
+* [Product Page](https://www.sparkfun.com/products/22638)
+* [Schematic](assets/board_files/22638-SparkFun_Color_Sensor_OPT4048-Schematic.pdf) (PDF)
+* [Eagle Files](assets/board_files/22638-SparkFun_Color_Sensor_OPT4048-EagleFiles.zip) (ZIP)
+* [Board Dimensions](assets/board_files/22638-SparkFun_Color_Sensor_OPT4048-BoardOutline.png) (PDF)
+
+
+* [Product Page](https://www.sparkfun.com/products/22639)
+* [Schematic](assets/board_files/22639-SparkFun_Color_Sensor_OPT4048-Mini-Schematic.pdf) (PDF)
+* [Eagle Files](assets/board_files/22639-SparkFun_Color_Sensor_OPT4048_Mini-EagleFiles.zip) (ZIP)
+* [Board Dimensions](assets/board_files/22639-SparkFun_Color_Sensor_OPT4048-Mini-BoardOutline.png) (PDF)
+
+
+
+
+* [OPT4048 Datasheet](assets/board_files/opt4048.pdf) (PDF)
+* [Arduino Library](https://github.com/sparkfun/<Arduino Library Name>) *(if applicable)*
+* [Hardware GitHub Respository](https://github.com/sparkfun/SparkFun_Tristimulus_Color_Sensor-OPT4048)
+
+
+
