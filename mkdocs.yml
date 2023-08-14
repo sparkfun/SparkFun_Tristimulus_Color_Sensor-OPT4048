@@ -144,6 +144,7 @@ theme:
 # Add the installation of any new plugins to the ./github/workflows/mkdocs.yml file also
 plugins:
   - search
+  - typeset
   - redirects:
       redirect_maps:
           'index.md': 'introduction.md'
