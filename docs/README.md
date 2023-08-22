@@ -27,8 +27,8 @@ Repository Contents
 
 Documentation
 --------------
-* **[Library](GitHub library URL)** - <LANGUAGE> library for the <PRODUCT NAME>.
-* **[Hookup Guide](Learn.SparkFun URL)** - Basic hookup guide for the <PRODUCT NAME>.
+* **[Library](https://github.com/sparkfun/SparkFun_OPT4048_Arduino_Library)** - Arduino library for the SparkFun Tristimulus Color Sensor - OPT4048.
+* **[Hookup Guide](http://docs.sparkfun.com/SparkFun_Tristimulus_Color_Sensor-OPT4048/)** - Basic hookup guide for the SparkFun Tristimulus Color Sensor - OPT4048.
 
 
 License Information
