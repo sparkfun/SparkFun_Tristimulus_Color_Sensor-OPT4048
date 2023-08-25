@@ -20,7 +20,7 @@ Spot something wrong? Please let us know. <a href="https://github.com/sparkfun/S
 
 All of our documentation can be modified by you! Please help us make it better.
 
-* The documentation files for these pages are contained in the [`docs` folder](https://github.com/sparkfun/SparkFun_Tristimulus_Color_Sensor-OPT4048/tree/main/docs) of the [<Official Product Name> repository](https://github.com/sparkfun/SparkFun_Tristimulus_Color_Sensor-OPT4048).
+* The documentation files for these pages are contained in the [`docs` folder](https://github.com/sparkfun/SparkFun_Tristimulus_Color_Sensor-OPT4048/tree/main/docs) of the [SparkFun Tristimulus Color Sensor - OPT4048 repository](https://github.com/sparkfun/SparkFun_Tristimulus_Color_Sensor-OPT4048).
 
 ### 🔍 Spot something wrong?
 
@@ -38,7 +38,7 @@ If a section of the documentation is incorrect, please [open an issue](https://g
 
 All of our designs are open-source! Please help us make it better.
 
-* Our board design files are contained in the [`Hardware` folder](https://github.com/sparkfun/SparkFun_Tristimulus_Color_Sensor-OPT4048/tree/main/Hardware) of the [<Official Product Name> repository](https://github.com/sparkfun/SparkFun_Tristimulus_Color_Sensor-OPT4048).
+* Our board design files are contained in the [`Hardware` folder](https://github.com/sparkfun/SparkFun_Tristimulus_Color_Sensor-OPT4048/tree/main/Hardware) of the [SparkFun Tristimulus Color Sensor - OPT4048 repository](https://github.com/sparkfun/SparkFun_Tristimulus_Color_Sensor-OPT4048).
 
 ### Does something not make sense? 🤔
 

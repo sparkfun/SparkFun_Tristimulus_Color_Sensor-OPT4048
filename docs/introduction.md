@@ -16,7 +16,7 @@ icon: material/book-open-page-variant
 	---
 
 	<figure markdown>
-	![Product Thumbnail](<Product Image Link>)
+	![Product Thumbnail](https://cdn.sparkfun.com/assets/parts/2/2/7/9/8/22638-_SEN_SparkFun_Tristimulus_Color_Sensor-_01.jpg)
 	</figure>
 	</a>
 
@@ -33,7 +33,7 @@ icon: material/book-open-page-variant
 	---
 
 	<figure markdown>
-	![Product Thumbnail](<Product Image Link>)
+	![Product Thumbnail](https://cdn.sparkfun.com/assets/parts/2/2/7/9/9/22639-_SEN_SparkFun_Mini_Tristimulus_Color_Sensor-_01.jpg)
 	</figure></a>
 
     Short product description
@@ -62,7 +62,7 @@ To get started, users will need a few items. Now some users may already have a f
 
 -   <a href="https://www.sparkfun.com/products/22639">
       <figure markdown>
-        <img src="assets/20594-SparkFun_DataLogger_IoT-ESP32_01.jpg" style="width:140px; height:140px; object-fit:contain;" alt="SparkFun DataLogger IoT - 9DoF">
+        <img src="assets/20594-SparkFun_DataLogger_IoT-ESP32_01.jpg" style="width:140px; height:140px; object-fit:contain;" alt="SparkFun Tristimulus Color Sensor - OPT4048DTSR">
       </figure>
     </a>
 
@@ -80,37 +80,30 @@ To get started, users will need a few items. Now some users may already have a f
 
 If you aren’t familiar with the following concepts, we recommend checking out these tutorials before continuing.
 
-<section class="cards">
+<div class="grid cards hide col-4" markdown>
 
-<!--   card 1 -->
-  <article class="card">
-    <picture class="thumbnail">
-         <img class="category__01" src="https://cdn.sparkfun.com/assets/custom_pages/2/7/2/qwiic-logo-registered.jpg" alt="" />
-    </picture>
-    <div class="card-content">
-      <a href="https://www.sparkfun.com/qwiic">Qwiic Connect System</a>
-   </div><!-- .card-content -->
-  </article>
 
-<!--   card 2 -->
-  <article class="card">
-    <picture class="thumbnail">
-         <img class="category__03" src="https://cdn.sparkfun.com/assets/learn_tutorials/8/2/I2C-Block-Diagram.jpg" alt="" />
-    </picture>
-    <div class="card-content">
-      <a href="https://learn.sparkfun.com/tutorials/i2c">I2C</a>
-   </div><!-- .card-content -->
-  </article>
+-   <a href="https://www.sparkfun.com/qwiic">
+    <figure markdown>
+    ![Product Thumbnail](https://cdn.sparkfun.com/assets/custom_pages/2/7/2/qwiic-logo-registered.jpg)
+    </figure>
+    <center>**Qwiic Connect System**</center></a>
 
-<!--   card 3 -->
-  <article class="card">
-    <picture class="thumbnail">
-         <img class="category__03" src="https://cdn.sparkfun.com/assets/7/0/f/3/9/512bccd7ce395f3e47000000.jpg" alt="" />
-    </picture>
-    <div class="card-content">
-      <a href="https://learn.sparkfun.com/tutorials/light">I2C</a>
-   </div><!-- .card-content -->
-  </article>
-</section>
+-   <a href="https://www.sparkfun.com/I2C">
+    <figure markdown>
+    ![Product Thumbnail](https://cdn.sparkfun.com/assets/learn_tutorials/8/2/I2C-Block-Diagram.jpg)
+    </figure>
+    <center>**I<sup>2</sup>C**</center></a>
+
+-   <a href="https://learn.sparkfun.com/tutorials/light">
+    <figure markdown>
+    ![Product Thumbnail](https://cdn.sparkfun.com/assets/7/0/f/3/9/512bccd7ce395f3e47000000.jpg)
+    </figure>
+    <center>**Light**</center></a>
+
+
+
+</div>
+
 
 

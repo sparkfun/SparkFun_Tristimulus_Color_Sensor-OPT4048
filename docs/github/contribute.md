@@ -4,7 +4,7 @@ Spot an improvement opportunity? Feel free to contribute to our open-source desi
 ## :material-file-document-multiple:&nbsp;Improve our Documentation
 All of this documentation can be modified by you! Please help us make it better.
 
-* These pages are contained in the [`docs` folder](https://github.com/sparkfun/SparkFun_Tristimulus_Color_Sensor-OPT4048/tree/main/docs) of the [<Official Product Name> repository](https://github.com/sparkfun/SparkFun_Tristimulus_Color_Sensor-OPT4048).
+* These pages are contained in the [`docs` folder](https://github.com/sparkfun/SparkFun_Tristimulus_Color_Sensor-OPT4048/tree/main/docs) of the [SparkFun Tristimulus Color Sensor - OPT4048 repository](https://github.com/sparkfun/SparkFun_Tristimulus_Color_Sensor-OPT4048).
 
 <!-- ### :material-source-pull:&nbsp;Submit a Correction -->
 ### Submit a Correction
@@ -18,7 +18,7 @@ All of this documentation can be modified by you! Please help us make it better.
 ## :material-cog:&nbsp;Improve our Hardware Design
 All of our designs are open-source! Please help us make it better.
 
-* Our board design files are contained in the [`Hardware` folder](https://github.com/sparkfun/SparkFun_Tristimulus_Color_Sensor-OPT4048/tree/main/Hardware) of the [<Official Product Name> repository](https://github.com/sparkfun/SparkFun_Tristimulus_Color_Sensor-OPT4048).
+* Our board design files are contained in the [`Hardware` folder](https://github.com/sparkfun/SparkFun_Tristimulus_Color_Sensor-OPT4048/tree/main/Hardware) of the [SparkFun Tristimulus Color Sensor - OPT4048 repository](https://github.com/sparkfun/SparkFun_Tristimulus_Color_Sensor-OPT4048).
 
 <!-- ### :material-source-pull:&nbsp;Submit a Design Enhancement -->
 ### Submit a Design Enhancement
