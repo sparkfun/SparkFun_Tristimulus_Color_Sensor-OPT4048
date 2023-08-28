@@ -43,6 +43,8 @@ The OPT4048 from Texas Instruments is a single-chip high resolution color sensor
 
 ## Qwiic Connectors
 
+The boards include two Qwiic connectors on each side of the board.
+
 <center>
 <table class="pdf">
 	<tr>
@@ -76,7 +78,7 @@ The OPT4048 from Texas Instruments is a single-chip high resolution color sensor
 
 </div>
 
-## Power
+## Power Pins
 
 Ideally, power to these boards will be provided by the Qwiic cables. However, should you wish to provide power separately, the 1" x 1" board has its pins broken out to PTH and you can wire up power via these. 
 
@@ -101,14 +103,14 @@ Ideally, power to these boards will be provided by the Qwiic cables. However, sh
 <div class="grid cards hide" markdown>
 
 -   <figure markdown>
-	[![](assets/img/22638-SparkFun_Tristimulus_Color_Sensor-PowerPins.jpg)](assets/img/22638-SparkFun_Tristimulus_Color_Sensor-PowerPins.jpg "Click to enlarge")
+	[![Power pins for the Tristimulus color board are highlighted](assets/img/22638-SparkFun_Tristimulus_Color_Sensor-PowerPins.jpg)](assets/img/22638-SparkFun_Tristimulus_Color_Sensor-PowerPins.jpg "Click to enlarge")
 	<figcaption markdown>
 	The Power Pins on the Tristimulus Color Sensor.
 	</figcaption>
 	</figure>
 
 -   <figure markdown>
-	[![](assets/img/22639-SparkFun_Tristimulus_Color_Sensor-PowerPins.jpg)](assets/img/22639-SparkFun_Tristimulus_Color_Sensor-PowerPins.jpg "Click to enlarge")
+	[![Power pins for the Mini Tristimulus color board are highlighted](assets/img/22639-SparkFun_Tristimulus_Color_Sensor-PowerPins.jpg)](assets/img/22639-SparkFun_Tristimulus_Color_Sensor-PowerPins.jpg "Click to enlarge")
 	<figcaption markdown>
 	The Power Pins on the Mini Tristimulus Color Sensor.
 	</figcaption>
@@ -116,7 +118,7 @@ Ideally, power to these boards will be provided by the Qwiic cables. However, sh
 
 </div>
 
-## GPIO
+## I<sup>2</sup>C Pins
 
 
 If you do not want to use the Qwiic connectors, I<sup>2</sup>C functionality has been broken out to PTH pins on the 1x1" board.
