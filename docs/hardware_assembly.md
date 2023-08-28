@@ -6,6 +6,19 @@ icon: material/tools
 
 ## Qwiic Assembly
 
+Connecting to the Tristimulus Color breakout is simple. You will just need a microcontroller to process the data when using the OPT4048 and a Qwiic cable. In this case, we used a SparkFun RedBoard Qwiic.
+
+<figure markdown>
+[![SparkFun Tristimulus Color Sensor Hooked Up to RedBoard Qwiic via a Qwiic Cable](assets/img/22638-SparkFun_Tristimulus_Color_Sensor-Hookup.jpg){ width=90% }](assets/img/22638-SparkFun_Tristimulus_Color_Sensor-Hookup.jpg "Click to enlarge")
+<figcaption markdown>SparkFun Tristimulus Color Sensor Hooked Up to RedBoard Qwiic via a Qwiic Cable</figcaption>
+</figure>
+
+<figure markdown>
+[![SparkFun Mini Tristimulus Color Sensor Hooked Up to RedBoard Qwiic via a Qwiic Cable](assets/img/22639-SparkFun_Tristimulus_Color_Sensor-Hookup.jpg){ width=90% }](assets/img/22639-SparkFun_Tristimulus_Color_Sensor-Hookup.jpg "Click to enlarge")
+<figcaption markdown>SparkFun Mini Tristimulus Color Sensor Hooked Up to RedBoard Qwiic via a Qwiic Cable</figcaption>
+</figure>
+
+
 ## Soldered Assembly
 
 <div class="grid cards" markdown>
@@ -27,4 +40,3 @@ icon: material/tools
 	</p>
 
 
-## Battery/Power Assembly
