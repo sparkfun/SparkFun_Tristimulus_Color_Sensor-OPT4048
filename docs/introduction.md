@@ -36,7 +36,7 @@ icon: material/book-open-page-variant
 	![Product Thumbnail](https://cdn.sparkfun.com/assets/parts/2/2/7/9/9/22639-_SEN_SparkFun_Mini_Tristimulus_Color_Sensor-_01.jpg)
 	</figure></a>
 
-    Short product description
+    The Mini version of the SparkFun Tristimulus Color Sensor - OPT4048DTSR (Qwiic) maintains all the functionality of the 1" x 1" breakout board, but in a smaller footprint. 
 
 	<center>
 	[Purchase from SparkFun :fontawesome-solid-cart-plus:{ .heart }](https://www.sparkfun.com/products/22639){ .md-button .md-button--primary }
@@ -52,7 +52,7 @@ To get started, users will need a few items. Now some users may already have a f
 
 -   <a href="https://www.sparkfun.com/products/22638">
     <figure markdown>
-    ![Product Thumbnail](<Product Image Link>)
+    ![Product Thumbnail](assets/img/22638-SparkFun-Tristimulus-Color-Sensor-01.jpg)
     </figure>
 
     ---
@@ -61,18 +61,35 @@ To get started, users will need a few items. Now some users may already have a f
     SEN-22638</a>
 
 -   <a href="https://www.sparkfun.com/products/22639">
-      <figure markdown>
-        <img src="assets/20594-SparkFun_DataLogger_IoT-ESP32_01.jpg" style="width:140px; height:140px; object-fit:contain;" alt="SparkFun Tristimulus Color Sensor - OPT4048DTSR">
-      </figure>
-    </a>
+    <figure markdown>
+    ![Product Thumbnail](assets/img/22639-SparkFun-Mini-Tristimulus-Color-Sensor-01.jpg)
+    </figure>
 
     ---
 
-    <a href="https://www.sparkfun.com/products/22639">
-      <b>SparkFun Mini Tristimulus Color Sensor - OPT4048DTSR (Qwiic)</b>
-      <br />
-      SEN-22639
-    </a>
+    **SparkFun Mini Tristimulus Color Sensor - OPT4048DTSR (Qwiic)**<br>
+    SEN-22639</a>
+
+-   <a href="https://www.sparkfun.com/products/15123">
+    <figure markdown>
+    ![Product Thumbnail](https://cdn.sparkfun.com//assets/parts/1/3/4/9/2/15123-SparkFun_RedBoard_Qwiic-01a.jpg)
+    </figure>
+
+    ---
+
+    **SparkFun RedBoard Qwiic**<br>
+    DEV-15123</a>
+
+-   <a href="https://www.sparkfun.com/products/17259">
+    <figure markdown>
+    ![Product Thumbnail](https://cdn.sparkfun.com//assets/parts/1/6/2/4/6/17259-Flexible_Qwiic_Cable_-_100mm-01.jpg)
+    </figure>
+
+    ---
+
+    **Flexible Qwiic Cable - 100mm**<br>
+    PRT-17259</a>
+
 </div>
 
 
