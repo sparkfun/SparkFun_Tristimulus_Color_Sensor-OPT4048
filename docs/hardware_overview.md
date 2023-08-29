@@ -80,7 +80,7 @@ The boards include two Qwiic connectors on each side of the board.
 
 ## Power Pins
 
-Ideally, power to these boards will be provided by the Qwiic cables. However, should you wish to provide power separately, the 1" x 1" board has its pins broken out to PTH and you can wire up power via these. 
+Ideally, power to these boards will be provided by the Qwiic cables. However, should you wish to provide power separately, the boards have pins broken out to PTH and you can wire up power via these. 
 
 !!! warning
     <p>Make sure to pay attention to logic levels - supply voltage range should be between <b>1.71V - 3.6V.</b></p>
@@ -121,7 +121,7 @@ Ideally, power to these boards will be provided by the Qwiic cables. However, sh
 ## I<sup>2</sup>C Pins
 
 
-If you do not want to use the Qwiic connectors, I<sup>2</sup>C functionality has been broken out to PTH pins on the 1x1" board.
+If you do not want to use the Qwiic connectors, I<sup>2</sup>C functionality has been broken out to PTH pins.
 
 <center>
 <table class="pdf">
@@ -280,7 +280,7 @@ If you are concerned about power consumption or you just don't like LEDs, cut th
 
 </div>
 
-### I2C
+### I<sup>2</sup>C
 
 Like our other Qwiic boards, the SparkFun Tristimulus Color Sensor - OPT4048DTSR (Qwiic) boards come equipped with pull-up resistors on the clock and data pins. If you are daisy-chaining multiple Qwiic devices, you will want to cut this jumper; if multiple sensors are connected to the bus with the pull-up resistors enabled, the parallel equivalent resistance will create too strong of a pull-up for the bus to operate correctly. As a general rule of thumb, disable all but one pair of pull-up resistors if multiple devices are connected to the bus. To disable the pull up resistors, use an X-acto knife to cut the joint between the two jumper pads highlighted below.
 
