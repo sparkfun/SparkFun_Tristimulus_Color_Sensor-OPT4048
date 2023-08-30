@@ -337,16 +337,6 @@ The SparkFun Mini Tristimulus Color Sensor - OPT4048DTSR (Qwiic) measures 1" x 0
 
 
 
-
-
-
-
-
-
-
-
-
-
 ??? tip "Need more measurements?"
 	For more information about the board's dimensions, users can download the [Eagle files](assets/board_files/22638-SparkFun_Color_Sensor_OPT4048-EagleFiles.zip) for the 1" x 1" board, or the [Eagle files](assets/board_files/22639-SparkFun_Color_Sensor_OPT4048_Mini-EagleFiles.zip) for the Mini board. These files can be opened in Eagle and additional measurements can be made with the dimensions tool.
 
