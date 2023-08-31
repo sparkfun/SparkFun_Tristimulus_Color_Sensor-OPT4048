@@ -10,14 +10,11 @@ This first example just does some basic measurements. To find Example 1, go to *
 
 Alternatively, you can expand the link below and copy and paste the code into a shiny new Arduino sketch: 
 
-??? code "Example 1: Basic Color Sensing"
-    === "example1_BasicColorSensing.ino"
-        ``` c++ linenums="1"
-        --8<-- "https://raw.githubusercontent.com/sparkfun/SparkFun_OPT4048_Arduino_Library/main/examples/example1_BasicColorSensing/example1_BasicColorSensing.ino"
+??? "Example 1 Arduino Code"
+	```
+	--8<-- "https://raw.githubusercontent.com/sparkfun/SparkFun_OPT4048_Arduino_Library/main/examples/example1_BasicColorSensing/example1_BasicColorSensing.ino"
+	```
  
-Make sure you've selected the correct board and port in the Tools menu and then hit the upload button. Once the code has finished uploading, go ahead and open a [Serial Monitor](https://learn.sparkfun.com/tutorials/terminal-basics). You should see something similar to the following. 
-
-
 <figure markdown>
 [![Color Sensor OPT4048 Arduino Example 1](assets/img/Example1_Output.png){ width="90%" }](assets/img/Example1_Output.png "Click to enlarge")
 <figcaption markdown>Example 1 Output</figcaption>
