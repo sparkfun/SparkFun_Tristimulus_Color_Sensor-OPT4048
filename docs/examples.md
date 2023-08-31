@@ -27,6 +27,7 @@ The CIEx and CIEy values are going to fall somewhere between 0 and 1. Page 35 of
 <figcaption markdown>CIE XY and CIE UV space plots of color coordinates</figcaption>
 </figure>
 
+For more information on the CIE and CIY values, refer to the [CIE 1931 Color Space Wiki Page](https://en.wikipedia.org/wiki/CIE_1931_color_space).
 
 ###Example 2: Basic Lux Readings
 
