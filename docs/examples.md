@@ -10,12 +10,11 @@ This first example just does some basic measurements. To find Example 1, go to *
 
 Alternatively, you can expand the link below and copy and paste the code into a shiny new Arduino sketch: 
 
-??? "Example 1 Arduino Code"
-
-	```
-	--8<-- "https://raw.githubusercontent.com/sparkfun/SparkFun_OPT4048_Arduino_Library/main/examples/example1_BasicColorSensing/example1_BasicColorSensing.ino"
-	```
-
+??? code "Example 1: Basic Color Sensing"
+    === "example1_BasicColorSensing.ino"
+        ``` c++ linenums="1"
+        --8<-- "https://raw.githubusercontent.com/sparkfun/SparkFun_OPT4048_Arduino_Library/main/examples/example1_BasicColorSensing/example1_BasicColorSensing.ino"
+ 
 Make sure you've selected the correct board and port in the Tools menu and then hit the upload button. Once the code has finished uploading, go ahead and open a [Serial Monitor](https://learn.sparkfun.com/tutorials/terminal-basics). You should see something similar to the following. 
 
 
@@ -44,11 +43,11 @@ This example measures. To find Example 1, go to **File** > **Examples** > **Spar
 
 Alternatively, you can expand the link below and copy and paste the code into a shiny new Arduino sketch: 
 
-??? "Example 2 Arduino Code"
+#??? "Example 2 Arduino Code"
 
-	```
-	--8<-- "https://raw.githubusercontent.com/sparkfun/SparkFun_OPT4048_Arduino_Library/main/examples/example2_BasicLuxSensing/example2_BasicLuxSensing.ino"
-	```
+#	```
+#	--8<-- "https://raw.githubusercontent.com/sparkfun/SparkFun_OPT4048_Arduino_Library/main/examples/example2_BasicLuxSensing/example2_BasicLuxSensing.ino"
+#	```
 
 Make sure you've selected the correct board and port in the Tools menu and then hit the upload button. Once the code has finished uploading, go ahead and open a [Serial Monitor](https://learn.sparkfun.com/tutorials/terminal-basics). You should see something similar to the following. 
 
@@ -74,9 +73,9 @@ Alternatively, you can expand the link below and copy and paste the code into a 
 
 ??? "Example 3 Arduino Code"
 
-	```
-	--8<-- "https://raw.githubusercontent.com/sparkfun/SparkFun_OPT4048_Arduino_Library/main/examples/example3_BasicLuxSensing/example3_BasicColorWarmth.ino"
-	```
+#	```
+#	--8<-- "https://raw.githubusercontent.com/sparkfun/SparkFun_OPT4048_Arduino_Library/main/examples/example3_BasicLuxSensing/example3_BasicColorWarmth.ino"
+#	```
 
 Make sure you've selected the correct board and port in the Tools menu and then hit the upload button. Once the code has finished uploading, go ahead and open a [Serial Monitor](https://learn.sparkfun.com/tutorials/terminal-basics). You should see something similar to the following. Note the obvious changes where the sensor was turned upright. 
 
@@ -102,9 +101,9 @@ Alternatively, you can expand the link below and copy and paste the code into a 
 
 ??? "Example 4 Arduino Code"
 
-	```
-	--8<-- "https://raw.githubusercontent.com/sparkfun/SparkFun_OPT4048_Arduino_Library/main/examples/example4_ColorSettings/example4_ColorSettings.ino"#	```
-
+#	```
+#	--8<-- "https://raw.githubusercontent.com/sparkfun/SparkFun_OPT4048_Arduino_Library/main/examples/example4_ColorSettings/example4_ColorSettings.ino"#	```
+#
 Make sure you've selected the correct board and port in the Tools menu and then hit the upload button. Once the code has finished uploading, go ahead and open a [Serial Monitor](https://learn.sparkfun.com/tutorials/terminal-basics). You should see something similar to the following. Note the obvious changes where the sensor was turned upright. 
 
 
@@ -134,9 +133,9 @@ Alternatively, you can expand the link below and copy and paste the code into a 
 
 ??? "Example 5 Arduino Code"
 
-	```
-	--8<-- "https://raw.githubusercontent.com/sparkfun/SparkFun_OPT4048_Arduino_Library/main/examples/example5_Interrupt/example5_Interrupt.ino"
-	```
+#	```
+#	--8<-- "https://raw.githubusercontent.com/sparkfun/SparkFun_OPT4048_Arduino_Library/main/examples/example5_Interrupt/example5_Interrupt.ino"
+#	```
 
 Make sure you've selected the correct board and port in the Tools menu and then hit the upload button. Once the code has finished uploading, go ahead and open a [Serial Monitor](https://learn.sparkfun.com/tutorials/terminal-basics). You should see something similar to the following. Note the obvious changes where the sensor was turned upright. 
 
