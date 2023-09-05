@@ -73,7 +73,7 @@ Alternatively, you can expand the link below and copy and paste the code into a 
 	--8<-- "https://raw.githubusercontent.com/sparkfun/SparkFun_OPT4048_Arduino_Library/main/examples/example3_BasicColorWarmth/example3_BasicColorWarmth.ino"
 	```
 
-Make sure you've selected the correct board and port in the Tools menu and then hit the upload button. Once the code has finished uploading, go ahead and open a [Serial Monitor](https://learn.sparkfun.com/tutorials/terminal-basics). You should see something similar to the following. Note the obvious changes where the sensor was turned upright. 
+Make sure you've selected the correct board and port in the Tools menu and then hit the upload button. Once the code has finished uploading, go ahead and open a [Serial Monitor](https://learn.sparkfun.com/tutorials/terminal-basics). You should see something similar to the following. 
 
 
 <figure markdown>
@@ -102,7 +102,7 @@ Alternatively, you can expand the link below and copy and paste the code into a 
 
 
 
-Make sure you've selected the correct board and port in the Tools menu and then hit the upload button. Once the code has finished uploading, go ahead and open a [Serial Monitor](https://learn.sparkfun.com/tutorials/terminal-basics). You should see something similar to the following. Note the obvious changes where the sensor was turned upright. 
+Make sure you've selected the correct board and port in the Tools menu and then hit the upload button. Once the code has finished uploading, go ahead and open a [Serial Monitor](https://learn.sparkfun.com/tutorials/terminal-basics). You should see something similar to the following. 
 
 
 <figure markdown>
