@@ -87,7 +87,7 @@ Make sure you've selected the correct board and port in the Tools menu and then 
 Color warmth addresses the perceived "feel" of the color. Color temperatures over 5000 K are called "cool colors" (bluish), while lower color temperatures (2700–3000 K) are called "warm colors" (yellowish). 
 
 <figure markdown>
-[![Color Sensor OPT4048 Arduino Example 3](assets/img/450px-PlanckianLocus.png){ width="90%" }](assets/img/450px-PlanckianLocus.png "Click to enlarge")
+[![Color Sensor OPT4048 Arduino Example 3](assets/img/WarmthChart.png){ width="90%" }](assets/img/WarmthChart.png "Click to enlarge")
 <figcaption markdown></figcaption>
 </figure>
 
