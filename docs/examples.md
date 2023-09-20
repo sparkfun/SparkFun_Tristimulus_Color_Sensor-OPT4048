@@ -86,6 +86,16 @@ Make sure you've selected the correct board and port in the Tools menu and then 
 
 Color warmth addresses the perceived "feel" of the color. Color temperatures over 5000 K are called "cool colors" (bluish), while lower color temperatures (2700–3000 K) are called "warm colors" (yellowish). 
 
+<figure markdown>
+[![Color Sensor OPT4048 Arduino Example 3](assets/img/450px-PlanckianLocus.png){ width="90%" }](assets/img/450px-PlanckianLocus.png "Click to enlarge")
+<figcaption markdown></figcaption>
+</figure>
+
+For more information on color temperature values, refer to the [Color temperature Wiki Page](https://en.wikipedia.org/wiki/Color_temperature).
+
+
+
+
 ###Example 4: Color Settings
 
 The color settings example lists the conversion times for each channel. In a nutshell, the longer the conversion time, the more accurate the read values. To find Example 4, go to **File** > **Examples** > **SparkFun Color Sensor OPT4048** > **example4_ColorSettings**:
