@@ -18,7 +18,11 @@ SparkFun Tristimulus Color Sensor - OPT4048
     </tr>
 </table>
 
+The SparkFun Qwiic Tristimulus Color Sensors are built around the OPT4048 High-Speed High Precision Tristimulus XYZ Color Sensor from Texas Instruments. These sensors feature a single-chip high-resolution color sensor capable of measuring four channels, each with specific engineered spectral responses. The main breakout board is only 1" x 1", while the Mini is 0.5" by 1". Both have been equipped with two I<sup>2</sup>C Qwiic connectors to make interfacing with the OPT4048 a bit easier. It’s part of SparkFun’s Qwiic connect system, so you won’t have to do any soldering to figure out how things are oriented. However, we still have broken out 0.1"-spaced pins if you prefer to use a breadboard.
 
+Three of the four channels on the OPT4048DTSR closely match the CIE tristimulus spectra, with the fourth channel having a wide-band spectral response. With measurements from these channels, essential characteristics of the lighting environment can be extracted, like (i) light intensity (lux), (ii) color in CIE XY, LUV coordinates, and (iii) Correlated Color Temperature. This aids in applications where measuring the precise characteristics of the lighting environment is critical, like display brightness, color temperature adjustment, camera color temperature correction, object true color recognition, & medical applications.
+
+We've written an Arduino library to make reading the various measurements easy. It can be downloaded through the Arduino Library manager: search for 'SparkFun OPT4048', or it can be found in the Documents section.
 
 
 
